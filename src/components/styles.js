@@ -3,6 +3,9 @@ export const styles = {
   flex: {
     display: "flex",
   },
+  text: {
+    marginTop: 0
+  },
   grid: {
     container: {
       display: "grid",
@@ -107,4 +110,63 @@ export const styles = {
       marginTop: themes.spacing(),
     },
   },
+  input: {
+    container: {
+      display: 'flex',
+
+    },
+    field: {
+      background: 'transparent',
+      border: '1px white solid',
+      borderRadius: themes.radius(2),
+      padding: themes.spacing(),
+      color: themes.color.textLight,
+      outline: 'none',
+      marginBottom: themes.spacing(),
+      width: '50px'
+    },
+  },
+  calculator: {
+    container: {
+      width: '100%',
+      display: "flex",
+ 
+   
+    },
+    input: {
+      field: {
+        borderLeft: '1px white solid',
+        borderTop: '1px white solid',
+        borderBottom: '1px white solid',
+        borderRight: '0px',
+        borderTopRightRadius: '0px',
+        borderBottomRightRadius: '0px'
+      },
+      btn: {
+        borderLeft: '2px dashed white',
+        borderTop: '1px white solid',
+        borderBottom: '1px white solid',
+        borderRight: '1px white solid',
+        borderTopLeftRadius: '0px',
+        borderBottomLeftRadius: '0px',
+        borderTopRightRadius: themes.radius(2),
+        borderBottomRightRadius: themes.radius(2),
+        marginBottom: themes.spacing(),
+        background: 'transparent',
+        color: themes.color.text,
+        paddingRight: themes.spacing()
+
+      },
+      height: '100%',
+      textAlign: 'center',
+
+    },
+    result: {
+      width: '100%',
+      textAlign: 'center'
+      // gridArea: "result",
+      // width: '50%'
+
+    }
+  }
 };

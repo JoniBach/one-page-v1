@@ -1,5 +1,6 @@
 import Card from "../components/card";
 import Nav from "../components/nav";
+import Calculator from "../components/calculator";
 import { styles } from "../components/styles";
 export default function MainPage() {
   return (
@@ -18,7 +19,7 @@ export default function MainPage() {
             I am a tree surgeon with X years experience
           </div>
         </Card>
-        <Card>Calculator</Card>
+        <Calculator />
       </div>
       <div style={styles.grid.footer}>
         <Card>Contact me</Card>

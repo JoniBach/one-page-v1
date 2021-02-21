@@ -13,6 +13,9 @@ const color = {
     surface: '#333',
     main: '#849974',
     accent: '#613843',
+    textLight: 'white',
+    textDark: 'black',
+    text: 'white',
     // 36384C - blue
     // 849974 - green
     // E9DCCD - white
