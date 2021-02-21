@@ -7,10 +7,10 @@ export const styles = {
     container: {
       display: "grid",
       margin: themes.spacing(),
-      gridTemplateColumns: "1fr 3fr 1fr",
+      gridTemplateColumns: "1fr 10fr 1fr",
       gridTemplateRows: "auto",
       gridTemplateAreas:
-        " 'header header header''. main  .''footer footer footer'",
+        " 'header header header''. main .''footer footer footer'",
     },
     header: {
       /* max-width: 500px; */
@@ -19,7 +19,7 @@ export const styles = {
       // width: "100%",
       // maxWidth: "700px",
       gridArea: "header",
-      maxWidth: '900px',
+      // maxWidth: '900px',
 
     },
     main: {
@@ -34,7 +34,7 @@ export const styles = {
     },
     footer: {
       gridArea: "footer",
-      maxWidth: '900px',
+      // maxWidth: '900px',
 
     },
   },
