@@ -6,6 +6,7 @@ export default function Card(props) {
     <div
       style={{
         ...styles.card,
+        ...props.style,
         background: props.img ? `url(${props.img}) no-repeat center center fixed` : 'auto',
         backgroundSize: 'cover',
         display: props.flex ? "flex" : "block",

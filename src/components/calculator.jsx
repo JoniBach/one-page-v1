@@ -1,13 +1,11 @@
 import Card from "./card";
 import { styles } from "./styles";
-import { GiPineTree } from "react-icons/gi";
 import Input from "./input";
 import Text from "./text";
 
 export default function Calculator(props) {
   return (
-    <Card>
-      {/* <div style={styles.nav.button.container}></div> */}
+    <Card >
       <Text type="h3">Calculator</Text>
       <div style={styles.calculator.container}>
         <div style={styles.calculator.input}>

@@ -31,6 +31,7 @@ export const styles = {
       // minWidth: '',
       alignSelf: 'center',
       justifySelf: "center",
+      alignContent: 'center',
 
       // justifyContent: 'center',
 
@@ -157,6 +158,7 @@ export const styles = {
         paddingRight: themes.spacing()
 
       },
+      // gridArea: "input",
       height: '100%',
       textAlign: 'center',
 
