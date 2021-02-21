@@ -5,14 +5,18 @@ const spacing = (props) => {
 }
 
 const radius = (props) => {
-    return props ? props : defSpace
+    return props ? props * defSpace : defSpace
 }
 
 const color = {
-    background: 'black',
+    background: '#36384C',
     surface: '#333',
-    main: 'purple',
-    accent: 'cyan',
+    main: '#849974',
+    accent: '#613843',
+    // 36384C - blue
+    // 849974 - green
+    // E9DCCD - white
+    // 613843 - read
 }
 
 export const themes = {

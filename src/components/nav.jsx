@@ -1,15 +1,13 @@
 import Card from "./card";
 import { styles } from "./styles";
+import { GiPineTree } from 'react-icons/gi';
 
 export default function Nav(props) {
   return (
-    // <div style={styles.nav.container}>
-    //   <div style={styles.nav.button}>x</div>
-    //   <div style={styles.nav.content}>Title</div>
-    // </div>
-    <Card flex="true" padding="1">
+
+    <Card flex="true" padding="1" radius='40'>
       <div style={styles.nav.button.container}>
-        <div style={styles.nav.button.child}>=</div>
+        <div style={styles.nav.button.child}><GiPineTree /></div>
       </div>
       <div style={styles.nav.content.container}>
         <div style={styles.nav.content.child}>Title</div>

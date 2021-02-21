@@ -6,8 +6,11 @@ export default function Card(props) {
     <div
       style={{
         ...styles.card,
-        display: props.flex ? "flex" : "none",
+        background: props.img ? `url(${props.img}) no-repeat center center fixed` : 'auto',
+        backgroundSize: 'cover',
+        display: props.flex ? "flex" : "block",
         padding:  props.padding ? themes.spacing(props.padding) : themes.spacing(2),
+        borderRadius:  props.radius ? themes.radius(props.radius) : themes.radius(1),
       }}
     >
       {props.children}

@@ -5,11 +5,9 @@ import { styles } from "./components/styles";
 function App() {
   return (
     // <body style={styles.body}>
-      <div style={styles.grid.container}>
-        <div style={styles.grid.header}>
+   
           <MainPage />
-        </div>
-      </div>
+     
     // </body>
   );
 }

@@ -1,4 +1,10 @@
-body {
-  background-color: #333;
-  color: #ccc;
+html {
+  background-color: #FFFEF2;
+  /* background: url(https://media.istockphoto.com/vectors/green-forest-seamless-pattern-in-geometric-repeating-vector-id844063942?s=612x612); */
+  background-repeat: repeat;
+  background-size: 300px;
+  color: #fff;
+  
+  /* color: white; */
 }
+
