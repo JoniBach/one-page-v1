@@ -7,10 +7,10 @@ export const styles = {
     container: {
       display: "grid",
       margin: themes.spacing(),
-      gridTemplateColumns: "1fr 3fr 3fr 1fr",
+      gridTemplateColumns: "1fr 3fr 1fr",
       gridTemplateRows: "auto",
       gridTemplateAreas:
-        " 'header header header header''. main main .''footer footer footer footer'",
+        " 'header header header''. main  .''footer footer footer'",
     },
     header: {
       /* max-width: 500px; */
@@ -19,12 +19,23 @@ export const styles = {
       // width: "100%",
       // maxWidth: "700px",
       gridArea: "header",
+      maxWidth: '900px',
+
     },
     main: {
       gridArea: "main",
+      maxWidth: '900px',
+      // minWidth: '',
+      alignSelf: 'center',
+      justifySelf: "center",
+
+      // justifyContent: 'center',
+
     },
     footer: {
       gridArea: "footer",
+      maxWidth: '900px',
+
     },
   },
   card: {

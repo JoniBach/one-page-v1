@@ -14,7 +14,9 @@ export default function MainPage() {
             alt=""
             src="https://www.4seasonstreecare.co.uk/wp-content/uploads/2018/07/tree-surgeon.jpg"
           />
-          <div style={styles.halo.txt}>I am a tree surgeon</div>
+          <div style={styles.halo.txt}>
+            I am a tree surgeon with X years experience
+          </div>
         </Card>
         <Card>Calculator</Card>
       </div>
